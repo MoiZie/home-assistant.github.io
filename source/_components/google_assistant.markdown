@@ -56,6 +56,11 @@ Configuration variables:
     - `script`
     - `climate`
 
+<p class='note'>
+https://developers.google.com/actions/smarthome/guides/
+Google Assistant cannot yet use all device properties. For instance; setting the volume on an external receiver requires saying ' set brightness to XXX ' as google treats those devices as lights. 
+</p>
+
 It's very important that you use very long strings for `client_id` and `access_token`. Those are essentially the credentials to your Home Assistant instance. You can generate them with the following command:
 
 ```bash
